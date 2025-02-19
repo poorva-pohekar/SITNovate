@@ -1,0 +1,3 @@
+Installing NLTK Data 
+download the entire collection (using “all”),
+or just the data required for the examples and exercises in the book (using “book”), or just the corpora and no grammars or trained models (using “all-corpora”).
