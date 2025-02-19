@@ -11,11 +11,14 @@ This AI-powered tool generates concise summaries of lengthy documents such as re
 - Performs abstractive summarization using facebook/bart-large-cnn
 
 ## Requirements
-- Install Tesseract OCR(Image Processing)
-    For ubuntu/Debian:
-    sudo apt install tesseract-ocr
-    For Arch Linux:
-    sudo pacman -S tesseract
+### Install Tesseract OCR (Image Processing)
+#### For Ubuntu/Debian:
+```bash
+sudo apt install tesseract-ocr
+```
+#### For Arch Linux:
+```bash
+sudo pacman -S tesseract
 
 ## Dependencies
 - nltk
