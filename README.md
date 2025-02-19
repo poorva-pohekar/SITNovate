@@ -1,5 +1,7 @@
 # SITNovate
-## Intelligent Document Summarization for Efficient Information Extraction
+# Intelligent Document Summarization for Efficient Information Extraction
 
-### Overview
+## Overview - 
 This AI-powered tool generates concise summaries of lengthy documents such as research papers, legal contracts, and news articles. Using advanced NLP techniques, it extracts key information while preserving context. The system adapts to different domains, including healthcare, finance, and education.
+
+## Features - 
