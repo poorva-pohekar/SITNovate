@@ -10,7 +10,14 @@ This AI-powered tool generates concise summaries of lengthy documents such as re
 - Performs extractive summarization using LexRank(Sumy)
 - Performs abstractive summarization using facebook/bart-large-cnn
 
-## Requirements
+## Installation
+### Prerequisites
+Ensure you have Python installed (>= 3.8).
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 ### Install Tesseract OCR (Image Processing)
 #### For Ubuntu/Debian:
 ```bash
