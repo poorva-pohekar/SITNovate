@@ -1,0 +1,6 @@
+nltk
+sumy
+transformers
+pdfplumber
+pytesseract
+Pillow
