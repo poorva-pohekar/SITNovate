@@ -9,11 +9,16 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 from transformers import pipeline
 
+from transformers import pipeline
+
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn", device=-1)  # Use CPU
+
+
 # Download necessary NLTK resources
 nltk.download("punkt")
 
 # Load the pre-trained BART summarization model
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+# summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 
 # Preprocessing: Clean text
 def clean_text(text):
