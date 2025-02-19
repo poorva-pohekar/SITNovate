@@ -19,6 +19,7 @@ sudo apt install tesseract-ocr
 #### For Arch Linux:
 ```bash
 sudo pacman -S tesseract
+```
 
 ## Dependencies
 - nltk
