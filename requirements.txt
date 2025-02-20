@@ -1,8 +1,8 @@
-nltk
+streamlit
+transformers==4.37.0
+torch==2.1.2
 sumy
-transformers
+nltk
 pdfplumber
 pytesseract
 Pillow
-streamlit
-torch
