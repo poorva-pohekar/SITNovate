@@ -4,3 +4,5 @@ transformers
 pdfplumber
 pytesseract
 Pillow
+streamlit
+torch
