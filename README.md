@@ -38,5 +38,5 @@ The project can be deployed using:
 - Streamlit Cloud
 - Custom React UI
 
-## Deevloped by
+## Devloped by
 NEURAL NET NINJAS 
