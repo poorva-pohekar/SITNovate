@@ -12,10 +12,10 @@ This AI-powered tool generates concise summaries of lengthy documents such as re
 
 ## Requirements
 - Install Tesseract OCR(Image Processing)
-    For ubuntu/Debian:
-    sudo apt install tesseract-ocr
-    For Arch Linux:
-    sudo pacman -S tesseract
+    - For ubuntu/Debian:
+        sudo apt install tesseract-ocr
+    - For Arch Linux:
+        sudo pacman -S tesseract
 
 ## Run the CLI version
     python main.py
