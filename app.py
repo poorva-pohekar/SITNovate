@@ -51,18 +51,44 @@ def extract_text_from_pdf(pdf):
                 text += extracted_text + "\n"
     return text.strip()
 
-# Streamlit UI
-st.set_page_config(page_title="AI Document Summarizer", layout="wide")
 
-st.title("📄 AI-Powered Document Summarizer")
-st.markdown("### Neural Network Ninjas 🚀")
+# Streamlit UI Configuration
+st.set_page_config(page_title="Ninja Summarizer", layout="wide")
 
+# Custom Styling
+st.markdown("""
+    <style>
+        .main-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ff5733;
+        }
+        .sub-title {
+            text-align: center;
+            font-size: 1.5rem;
+            color: #FFFFFF;
+        }
+        .summary-box {
+            background-color: #f0f2f6;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+# Page Header
+st.markdown("<h1 class='main-title'>🤖 Ninja Summarizer</h1>", unsafe_allow_html=True)
+st.markdown("<h3 class='sub-title'>AI-Powered Document Summarization by Team Neural Network Ninjas 🚀</h3>", unsafe_allow_html=True)
+
+# Sidebar
 st.sidebar.header("⚡ Choose an input type")
 option = st.sidebar.radio("Select Input Type:", ["Text", "PDF", "Image"], index=0)
-
 st.sidebar.markdown("---")
 st.sidebar.info("This tool extracts and summarizes text from PDFs, images, and plain text using advanced AI models.")
 
+# Main Layout
 col1, col2 = st.columns([2, 3])
 
 if option == "Text":
